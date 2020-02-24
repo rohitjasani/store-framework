@@ -18,7 +18,7 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-      "headline": "Shining chrome",
+      "headline": "Vintage Pink",
       "subhead": "Give your kitchen a cool style adding warm metallic finishes<br>Available until January 2020.",
       "callToActionMode": "button",
       "callToActionText": "Explore",
@@ -33,8 +33,8 @@
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "headline": "Shining chrome",
       "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
-      "callToActionMode": "button",
-      "callToActionText": "Explore",
+      "callToActionMode": "link",
+      "callToActionText": "Go to Collection",
       "callToActionUrl": "/collections/138/",
       "textAlignment": "center"
     }
