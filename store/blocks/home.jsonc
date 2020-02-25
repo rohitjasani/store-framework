@@ -4,7 +4,7 @@
       "flex-layout.row",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.col#delete"
+      "flex-layout.col"
       
     ]
   },
@@ -13,7 +13,7 @@
   "flex-layout.row":{
     "children": [
       "info-card#rethink",
-      "flex-layout.col#delete"
+      "flex-layout.col"
     ]
   },
   
@@ -27,7 +27,7 @@
     }
   },
   
-  "flex-layout.col#delete": {
+  "flex-layout.col": {
     "children": [
       "image#electronics",
       "image#major-appliance"
