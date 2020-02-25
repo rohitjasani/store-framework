@@ -99,21 +99,21 @@
   
   "rich-text#desktop": {
     "props": {
-      "text": "### Your Coffee, Your Way ### \n #### New Coffee Makers Collection ####",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT"
     }
   },
   
   "rich-text#mobile": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
      
       "textColor": "c-on-emphasis",
       "font": "t-heading-5",
       "blockClass": "help-message",
-      "text": "### Your Coffee, Your Way ### \n #### New Coffee Makers Collection ####"
+      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection"
       
     }
   },
