@@ -99,14 +99,21 @@
   
   "rich-text#desktop": {
     "props": {
-      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection"
-      
+      "text": "### Your Coffee, Your Way ### \n #### New Coffee Makers Collection ####",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   
   "rich-text#mobile": {
     "props": {
-      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+     
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message",
+      "text": "### Your Coffee, Your Way ### \n #### New Coffee Makers Collection ####"
       
     }
   },
