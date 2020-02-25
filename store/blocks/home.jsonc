@@ -7,7 +7,9 @@
       "info-card#button-left",
       "slider-layout#home",
       "responsive-layout.desktop#desktop",
+      "responsive-layout.desktop#image",
       "responsive-layout.mobile#mobile",
+      "responsive-layout.mobile#image",
       
       "flex-layout.col"
     ]
@@ -84,40 +86,22 @@
     }
   },
   "responsive-layout.desktop#desktop": {
-    "children": [
-      "rich-text#desktop",
-      "image#desktop"
-    ]
+    "children": ["rich-text#desktop"]
+  },
+  "responsive-layout.desktop#image": {
+    "children": ["image#desktop"]
   },
   
   "responsive-layout.mobile#mobile": {
-    "children": [
-      "rich-text#mobile",
-      "image#mobile"
-    ]
+    "children": ["rich-text#mobile"]
   },
   
-  "rich-text#desktop": {
-    "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-      "textPosition": "LEFT",
-      "textAlignment": "LEFT"
-    }
+  
+  "responsive-layout.mobile#image": {
+    "children": ["image#mobile"]
   },
   
-  "rich-text#mobile": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-     
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-5",
-      "blockClass": "help-message",
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection"
-      
-    }
-  },
-  "image#desktop": {
+   "image#desktop": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
       "link": {
@@ -136,6 +120,25 @@
       } ,
       "maxWidth": "100%",
       "alt": "Coffee Makers Collection"
+    }
+  },
+  "rich-text#desktop": {
+    "props": {
+      "text": "### Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  
+  "rich-text#mobile": {
+    "props": {
+      "text": "### Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+     
+      
+      
+      
     }
   }
 
