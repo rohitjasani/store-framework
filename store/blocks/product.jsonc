@@ -32,7 +32,7 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      "sku-selector",
+     
      
       "product-price",
       "flex-layout.row#qty-sku",
@@ -78,7 +78,8 @@
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false,
-      "initialSelection": "empty"
+      "initialSelection": "empty",
+      "showVariationsLabels": true
     }
   }
   
