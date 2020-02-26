@@ -26,16 +26,16 @@
       "rowGap": 0
     },
     "children": [
-      "product-name#right",
+      "product-name",
       
      
      
-      "product-price#right",
+      "product-price",
       
      
       
       
-      "buy-button#right"
+      "buy-button"
       
       
     ]
@@ -45,25 +45,10 @@
     "props": {
       "displayThumbnailsArrows": true
     }
-  },
-  "product-name#right": {
-    "props": {
-      "showSKU": true,
-      "showBrandName": true
-    }
-  },
-  "product-price#right": {
-    "props": {
-      "showSavings": true,
-      "showListPrice": false
-    }
-  },
-  "buy-button#right": {
-    "props": {
-      "isOneClickBuy": true,
-      "showTooltipOnSkuNotSelected": false
-    }
   }
+  
+  
+  
 
 
 }
