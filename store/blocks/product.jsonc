@@ -22,9 +22,9 @@
   },
   "flex-layout.col#right": {
     "props": {
-      "preventVerticalStretch": true,
-      "verticalAlign": "center",
-      "rowGap": 0
+      "preventVerticalStretch": false,
+      "verticalAlign": "CENTER"
+      
     },
     "children": [
       "product-name",
