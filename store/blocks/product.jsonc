@@ -48,20 +48,17 @@
   },
   "flex-layout.row#qty-sku": {
     "children": [
-      "sku-selector#products"
+      "sku-selector"
       
     ]
   },
-  "sku-selector#products": {
-    "props": {
-        "hideImpossibleCombinations": false,
-        "showValueForVariation": "all",
-        "showVariationsLabels":true,
-        
-        "initialSelection":"empty"
-
-    }
-  },
+  "sku-selector": {
+	  "props": {
+		"initialSelection": "empty",
+		"showVariationsLabels": true,
+		"showVariationsErrorMessage": true
+	  }
+	},
 
 
   "stack-layout#brand": {
