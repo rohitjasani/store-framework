@@ -79,7 +79,8 @@
     "props": {
       "initialSelection": "empty",
       "showVariationsLabels": true,
-      "showValueForVariation": "all"
+      "showValueForVariation": "all",
+      "showVariationsErrorMessage":true
      
     }
   }
