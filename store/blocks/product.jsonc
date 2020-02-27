@@ -80,10 +80,9 @@
       "initialSelection": "empty",
       "showVariationsLabels": true,
       
-      "showValueForVariation":false,
-      "visibility": "always", 
-      "visibleVariations":["size","color"],
-      "thumbnailImage": ["LabelName"] ,
+      "showValueForVariation":"all",
+      
+     
       "showValueNameForImageVariation":false,
       "showVariationsErrorMessage":true
       
