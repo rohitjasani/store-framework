@@ -79,7 +79,7 @@
     "props": {
       "initialSelection": "empty",
       "showVariationsLabels": true,
-      
+      "hideImpossibleCombinations":true,
       "showValueForVariation":"all",
       
      
