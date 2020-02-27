@@ -17,6 +17,7 @@
       "flex-layout.col#right"
     ]
   },
+  
   "flex-layout.col#left": {
     "children": [
       "stack-layout#brand"
