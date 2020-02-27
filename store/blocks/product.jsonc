@@ -75,6 +75,7 @@
       
     ]
   },
+  
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false,
