@@ -17,7 +17,7 @@
       "flex-layout.col#right"
     ]
   },
-  
+
   "flex-layout.col#left": {
     "children": [
       "stack-layout#brand"
@@ -80,6 +80,8 @@
     "props": {
       "hideImpossibleCombinations": false,
       "showValueForVariation": "none",
+      "showVariationsLabels":true,
+      
       "initialSelection":"none"
 
     }
