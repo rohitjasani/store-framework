@@ -83,6 +83,7 @@
       "showValueForVariation":false,
       "visibility": "always", 
       "visibleVariations":["size","color"],
+      "thumbnailImage": ["LabelName"] ,
       "showValueNameForImageVariation":false,
       "showVariationsErrorMessage":true
       
