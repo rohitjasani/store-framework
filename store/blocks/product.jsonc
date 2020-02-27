@@ -47,19 +47,19 @@
     ]
   },
   
-  "sku-selector": {
-	  "props": {
-		"initialSelection": "empty",
-		"showVariationsLabels": true,
-		"showVariationsErrorMessage": true
-	  }
-	},
-
-  "flex-layout.row#qty-sku": {
-    "children": [
-      "sku-selector"
-      
+  "flex-layout.row#qty-sku":{
+    "children":[
+      "sku-selector",
+      "product-quantity"
     ]
+  },
+  "sku-selector":{
+    "props":{
+      "initialSelection":"empty",
+      "showVariationsLabels": true,
+      "showVariationsErrorMessage":true,
+      "showValueNameForImageVariation":true
+    }
   },
   "stack-layout#brand": {
     "children": [
