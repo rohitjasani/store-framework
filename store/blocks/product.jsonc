@@ -80,8 +80,9 @@
       "initialSelection": "empty",
       "showVariationsLabels": true,
       
-      "showValueForVariation":"none",
-      
+      "showValueForVariation":false,
+      "displayMode": "select",
+      "showValueNameForImageVariation":false,
       "showVariationsErrorMessage":true
       
     }
