@@ -79,7 +79,9 @@
     "props": {
       "hideImpossibleCombinations": false,
       "initialSelection": "empty",
-      "showVariationsLabels": true
+      "showVariationsLabels": true,
+      "showValueForVariation": "all",
+      "showValueNameForImageVariation": true
     }
   }
   
