@@ -77,11 +77,10 @@
   },
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": false,
       "initialSelection": "empty",
       "showVariationsLabels": true,
-      "showValueForVariation": "all",
-      "showValueNameForImageVariation": true
+      "showValueForVariation": "all"
+     
     }
   }
   
