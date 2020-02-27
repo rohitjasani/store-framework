@@ -81,7 +81,8 @@
       "showVariationsLabels": true,
       
       "showValueForVariation":false,
-      "displayMode": "select",
+      "visibility": "always", 
+      "visibleVariations":["size","color"],
       "showValueNameForImageVariation":false,
       "showVariationsErrorMessage":true
       
