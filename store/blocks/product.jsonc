@@ -77,15 +77,13 @@
   },
   "sku-selector": {
     "props": {
-      "initialSelection": "empty",
-      "showVariationsLabels": true,
-      "hideImpossibleCombinations":false,
-      "showValueForVariation":"all",
-      "displayMode": "default",
-      "showVariationsErrorMessage":true
-      
+      "hideImpossibleCombinations": false,
+      "showValueForVariation": "none",
+      "initialSelection":"none"
+
     }
   }
+  
   
   
   
