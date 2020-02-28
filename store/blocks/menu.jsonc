@@ -5,7 +5,7 @@
             "menu-item#small-appliances",
             "menu-item#electronics"
         ],
-        
+        "blocks": ["vtex.menu@2.x:submenu#major"],
         "props": {
             "orientation": "horizontal"
         }
@@ -52,7 +52,11 @@
           "vtex.menu@2.x:menu#small"
         ]
     },
-    
+    "vtex.menu@2.x:submenu#shop": {
+        "children": [
+          "vtex.menu@2.x:menu#submenushop"
+        ]
+      },
     "vtex.menu@2.x:submenu#electronics":{
         "children":[
           "vtex.menu@2.x:menu#electronics"
