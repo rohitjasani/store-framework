@@ -1,58 +1,110 @@
 {
     "header": {
-      "blocks": [
-        "header-layout.desktop",
-        "header-layout.mobile"
-      ]
-    },
-    "header.full": {
-      "blocks": [
-        "header-layout.desktop",
-        "header-layout.mobile"
-      ]
-    },
-  
-    "header-layout.desktop": {
-      "children": [
-        "header-row#notification",
-        "header-row#main"
-      ]
-    },
-  
-    "header-layout.mobile": {
-      "children": [
-        "header-row#notification",
-        "header-row#main-mobile",
-        "header-row#search"
-      ]
-    },
-    "header-row#notification": {
+        "blocks": [
+          "header-layout.desktop",
+          "header-layout.mobile"
+        ]
+      },
+      "header.full": {
+        "blocks": [
+          "header-layout.desktop",
+          "header-layout.mobile"
+        ]
+      },
+    
+      "header-layout.desktop": {
+        "children": [
+          "header-row#notification",
+          "header-row#main",
+          "header-row#menu"
+        ]
+      },
+      "header-row#menu": {
         "children": [
           "header-spacer",
-          "rich-text#header",
+          "vtex.menu@2.x:menu#categories",
           "header-spacer"
         ]
       },
-      "header-row#main": {
-        "children": [
-          "header-spacer",
-          "rich-text#header",
-          "header-spacer"
-        ]
-      },
-      
-      "header-row#main-mobile": {
-        "children": [
-            "logo",
-            "header-spacer",
-            "minicart",
-            "login"
+        "vtex.menu@2.x:menu#categories": {
+          "children": [
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
           ],
-        
-          "props": {
-            "sticky": true,
-            "inverted":true
+       
+          "props":{
+            "orientation": "horizontal"
           }
+        },
+
+        "vtex.menu@2.x:submenu#major-appliances":{
+            "children":[
+              "vtex.menu@2.x:menu#major-appliances"
+            ]
+          },
+
+          "vtex.menu@2.x:menu#major-appliances": {
+            "children": [
+              "menu-item#refrigerators",
+              "menu-item#ovens",
+              "menu-item#washers"
+            ],
+         
+            "props":{
+              "orientation": "vertical"
+            }
+          },
+
+
+
+
+          
+    
+      "header-layout.mobile": {
+        "children": [
+           
+          "header-row#notification",
+          "header-row#main-mobile",
+          "header-row#search"
+        ]
+      },
+
+
+
+    "header-row#notification": {
+    "children": [
+      "header-spacer",
+      "rich-text#header",
+      "header-spacer"
+    ]
+  },
+  "header-row#main":{
+      "children":[
+          "logo",
+          "header-spacer",
+          "search-bar",
+          "minicart",
+          "login"
+      ],
+      "props":{
+          "inverted":true,
+          "sticky":true,
+          "fullWidth":false
+      }
+    },
+    "header-row#main-mobile": {
+        "children": [
+          "drawer",
+          "logo", 
+          "header-spacer",
+          "minicart",
+          "login"
+        ],
+        "props": {
+          "sticky": true,
+          "inverted":true
+        }
       },
       "header-row#search": {
         "children": [
@@ -60,12 +112,6 @@
         ],
         "props": {
           "sticky": true
-        }
-      },
-      "rich-text#header": {
-        "props": {
-          "text": "**Free Shipping on orders over $50**",
-          "textPosition": "CENTER"
         }
       },
       "login":{
@@ -79,6 +125,11 @@
         "props": {
           "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
         }
+      },
+      "rich-text#header": {
+        "props": {
+          "text": "**Free Shipping on orders over $50**",
+          "textPosition": "CENTER"
+        }
       }
-
-  }
+    }
