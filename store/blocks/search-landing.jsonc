@@ -11,7 +11,7 @@
             "src":"https://www.ornatejewels.com/images/woman/desktop/buy-pure-silver-jewellery-online.jpg"
          }
     },
-    "search-result-layout.customQuery#landingbanner":{
+    "search-result-layout.customQuery":{
         "props": {
             "querySchema": {
               "orderByField": "OrderByReleaseDateDESC",
