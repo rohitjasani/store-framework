@@ -7,7 +7,7 @@
     },
     "image#landingbanner":{
         "props":{
-            "minWidth": 100,
+            "minWidth": "100%",
             "src":"https://www.ornatejewels.com/images/woman/desktop/buy-pure-silver-jewellery-online.jpg"
          }
     },
@@ -19,10 +19,11 @@
               "facetsBehavior": "Dynamic",
               "maxItemsPerPage": 8,
               "queryField": "Blue Top Retro Camera",
-              "mapField": "ft",
-              "skusFilter": "FIRST_AVAILABLE"
+              "mapField": "ft"
+              
             }
-          }
+          },
+          "blocks": ["search-result-layout.desktop"]
 
     }
 
