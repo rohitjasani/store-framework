@@ -13,7 +13,7 @@
 	},
 	"search-result-layout.desktop": {
 		"props": {
-			"pagination": "infinity-scroll",
+			"pagination": "show-more",
 			"preventRouteChange": true
 		},
 		"children": [
@@ -24,7 +24,8 @@
 			"flex-layout.row#results",
 			"search-fetch-more"
 		]
-	},
+  },
+  
 	"flex-layout.row#top": {
 		"children": [
 			"total-products.v2",
@@ -54,14 +55,12 @@
 		]
 	},
 	"search-content": {
-		"blocks": [
-			"gallery",
-			"not-found"
-		]
-	},
+    "blocks": ["gallery","not-found"]
+  },
 	"gallery": {
 		"blocks": [
 			"product-summary.shelf"
 		]
-	}
+  }
 }
+
