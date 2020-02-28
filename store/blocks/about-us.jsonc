@@ -25,10 +25,10 @@
     },
     "tab-list.item#home1": {
       "props": {
-        "tabId": "about",
-        "label": "ABOUT",
+        "tabId": "sobre",
+        "label": "Sobre",
         "defaultActiveTab": true
-      }
+    }
     },
     "tab-list.item#home2": {
       "props": {
