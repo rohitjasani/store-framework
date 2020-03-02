@@ -1,5 +1,5 @@
 {
-    
+
     "vtex.menu@2.x:menu#categories": {
         "children": [
             "menu-item#major-appliances",
@@ -50,4 +50,5 @@
             "orientation": "vertical"
         }
     }
+    
 }
