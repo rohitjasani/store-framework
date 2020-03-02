@@ -32,6 +32,7 @@
         }
     },
 
+    
 
     
     "vtex.menu@2.x:menu#small": {
@@ -57,8 +58,8 @@
     
     "vtex.menu@2.x:submenu#major":{ 
         "children":[ 
-            "vtex.menu@2.x:menu#major" ,
-            "menu-item#major-appliances"
+            "vtex.menu@2.x:menu#major" 
+            
 
 
         ],
