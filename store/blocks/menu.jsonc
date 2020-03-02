@@ -9,20 +9,25 @@
             "orientation": "horizontal"
         }
     },
-    "vtex.menu@2.x:submenu#major": {
-        "children": [
-            "flex-layout.row#major"
+    "vtex.menu@2.x:submenu#small":{
+        "children":[
+          "vtex.menu@2.x:menu#small"
         ]
     },
-    "vtex.menu@2.x:submenu#small": {
-        "children": [
-            "vtex.menu@2.x:menu#small"
+    "vtex.menu@2.x:submenu#electronics":{
+        "children":[
+          "vtex.menu@2.x:menu#electronics"
         ]
     },
-    "vtex.menu@2.x:submenu#electronics": {
+    "vtex.menu@2.x:menu#major": {
         "children": [
-            "vtex.menu@2.x:menu#electronics"
-        ]
+            "menu-item#refrigerators",
+            "menu-item#ovens",
+            "menu-item#washers"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
     },
     "vtex.menu@2.x:menu#small": {
         "children": [
@@ -44,4 +49,4 @@
             "orientation": "vertical"
         }
     }
-}
+} 
